@@ -508,6 +508,25 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
     object-position: top;
     overflow: hidden;
 }
+.bx-wrapper {
+  -moz-box-shadow: 0 0 5px #ccc!important;
+  -webkit-box-shadow: 0 0 5px #ccc!important;
+  box-shadow: 0 0 20px #ccc!important;
+  border: 12px solid #111!important;
+  background: #111!important;
+    box-sizing: border-box!important;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: 10px!important;
+  width: 100%!important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background-color: #ADFF2F!important;
+}
 .photo h3{
     font-size: 150%;
     border-bottom: 3px solid #111;
