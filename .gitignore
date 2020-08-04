@@ -12,5 +12,9 @@ npm-debug.log
 yarn-error.log
 .idea
 trigger.php
+<<<<<<< HEAD
 hook.log
 hool-error.log
+=======
+docker-compose-p.yml
+>>>>>>> a1db382a6b10bc8284db8c8db34dd1618a99c2f5
