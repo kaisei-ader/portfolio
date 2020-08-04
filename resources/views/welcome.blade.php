@@ -16,6 +16,9 @@
     <!---------------------ヘッダ-------------------------->
     <header>
         <div class="header_wrap"></div>
+        <div class="scrollTop">
+        <img src="images/pageTop.png">
+       </div>
         <div class="header_background">
             <div class="header">
                 <div class="header_container">

@@ -80,3 +80,21 @@ $(window).scroll(function () {
     }
   });
 });
+
+$(function() {
+            let scrollTop = $('.scrollTop');
+            scrollTop.hide();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    scrollTop.fadeIn();
+                } else {
+                    scrollTop.fadeOut();
+                }
+            });
+            scrollTop.click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+            });
+        });
