@@ -12,237 +12,171 @@
     </head>
 
     <body>
-        <div class="shutter"></div>
-        <!---------------------ヘッダ-------------------------->
-        <header>
-            <div class="header_wrap"></div>
-            <div class="header_background">
-                <div class="header">
-                    <div class="header_container">
-                        <div class="header_logo">
-                            <a href="index.html" style="text-decoration: none;">
-                                <div class="logo_content">
-                                    <img src="img/fire.png">
-                                    <span class="portfolio">Kaisei.Portfolio</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="menu">
-                            <ul>
-                                <li><a href="#" class="down">Home</a></li>
-                                <li><a href="#about" class="down">About</a></li>
-                                <li><a href="#skill" class="down">Skill</a></li>
-                                <li><a href="#service" class="down">Service</a></li>
-                                <li><a href="#contact" class="down">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-----------メイン画像--------------------->
-            <!-----------タイピング--------------------->
-            <!-----------スクロール--------------------->
-            <div class="typing">
-                <img src="img/land.png">
-                <div class="typing_wrap">
-                    <h1><span class="typed"></span></h1>
-                </div>
-                <div class="scroll">
-                    <span class="scrolltag"></span>
-                    <br>SCLOLL
-                </div>
-            </div>
-            <!-----------ここまで----------------------->
-            <!-----------アバウト------------------------>
-        </header>
-        <section id="about">
-            <div class="about_animation">
-                <div class="about_scroll">
-                    <span class="about_span">
-                        <span class="onecolor">H</span>ello!! <span class="onecolor">M</span>y name is <span
-                                class="onecolor">K</span>aisei.
-                    </span>
-                </div>
-            </div>
-            <div class="about_wrap">
-                <div class="title_all"><span class="onecolor_all">A</span>BOUT
-                </div>
-                <div class="about_content fade_off">
-                    <div class="about_left">
-                        <img src="img/sunset.jpg" class="icon">
-                        <div class="more_pic">
-                            <a href="#photo" class="down">
-                                <button>portfolio list click</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="about_right">
-                        <div class="ribbon">
-                            <h3>ABOUT ME!!</h3>
-                        </div>
-                        <div class="about_text">
-                            <div class="text_title">
-                                <img src="img/iconmonstr-school-23-240.png" class="schoolImg">
-                                <h4>稲田 海晟 (19)</h4>
-                                <a href="https://twitter.com/"><i class="fab fa-twitter twitter-color"></i>@KKKKKKK</a>
+      <div class="shutter"></div>
+    <!---------------------ヘッダ-------------------------->
+    <header>
+        <div class="header_wrap"></div>
+        <div class="header_background">
+            <div class="header">
+                <div class="header_container">
+                    <div class="header_logo">
+                        <a href="index.html" style="text-decoration: none;">
+                            <div class="logo_content">
+                                <img src="img/fire.png">
+                                <span class="portfolio">Kaisei.Portfolio</span>
                             </div>
-                            <div class="text1">
-                                <p>web制作を学習中の専門学生。将来の夢は、自分にスキルをつけて</p>
-                                <p>新しいものを作ったりするフロントエンドエンジニアになることです。</p>
-                                <span class="about_career">
-                                    経歴 -career-
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#" class="down">Home</a></li>
+                            <li><a href="#about" class="down">About</a></li>
+                            <li><a href="#skill" class="down">Skill</a></li>
+                            <li><a href="#service" class="down">Service</a></li>
+                            <li><a href="#contact" class="down">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p id="illust01"><img src="images/illust01.png" width="140" height="200" alt=""></p>
+                <p id="illust02"><img src="images/illust02.png" width="140" height="100" alt=""></p>
+            </div>
+        </div>
+        <!-----------メイン画像--------------------->
+        <!-----------タイピング--------------------->
+        <!-----------スクロール--------------------->
+        <div class="typing">
+            <img src="images/pic4.jpg">
+            <div class="typing_wrap">
+                <h1><span class="typed"></span></h1>
+            </div>
+            <div class="scroll">
+                <span class="scrolltag"></span>
+                <br>SCLOLL
+            </div>
+        </div>
+        <!-----------ここまで----------------------->
+        <!-----------アバウト------------------------>
+    </header>
+    <section id="about">
+        <div class="aboutImg"></div>
+        <div class="about_animation">
+            <div class="about_scroll">
+                <span class="about_span">
+                    <span class="onecolor">H</span>ello!! <span class="onecolor">M</span>y name is <span class="onecolor">K</span>aisei.
+                </span>
+            </div>
+        </div>
+        <div class="about_wrap">
+            <div class="title_all"><span class="onecolor_all">A</span>BOUT
+            </div>
+
+<!----------------------------------------------------------->
+            <div class="about_content">
+                <section class="section1">
+                    <div class="section1Wrap">
+                        <p id="illust06"><img src="images/illust06.png" width="250" height="250" alt=""></p>
+                        <p id="illust07"><img src="images/illust07.png" width="600" height="600" alt=""></p>
+                        <h1>WEB制作・プログラミングを学ぶ、<br>
+                            20歳の専門学生。</h1>
+                        <div class="section1Flex">
+                            <div class="flexLeft">
+                                <span>
+                                    大阪でWEB制作・プログラミング<br>を学習中の専門学生。将来の夢は、自分にスキルをつけて
+                                    新しいものを作ったりクライアント様や自分の
+                                    理想をデザインするクリエイティブなフロントエンドエンジニアになることです。
+
                                 </span>
-                                <p>柏原市立国分中学校→上宮太子高等学校 → 大阪コンピュータ専門学校</p>
-                                <span class="about_active">
-                                    活動拠点 -Activity base-
-                                </span>
-                                <p>大阪府 柏原市 国分本町</p>
+                            </div>
+                            <div class="flexRight">
+                                <img src="images/style5.jpg">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="photo">
-                    <h1>- portfolio list -</h1>
-                    <div class="git">
-                        ※以下すべてのコードは<br>
-                        GIT-HUBアカウントに保存しております。
-                        <a href="https://github.com/Kaisei-ader">→GIT-HUBアカウントはこちら</a>
-                        <p>またサイトはすべて公開しています。<br>
-                            ↓↓↓↓クリックでそれぞれのサイトへ移動できます。↓↓↓↓</p>
-                    </div>
-                </div>
+                </section>
+            </div>
+        </div>
+        <div class="photo">
+            <h1>- portfolio list -</h1>
+            <div class="git">
+                ※以下すべてのコードは<br>
+                GIT-HUBアカウントに保存しております。
+                <a href="https://github.com/Kaisei-ader">→GIT-HUBアカウントはこちら</a>
+                <p>またサイトはすべて公開しています。<br>
+                    ↓↓↓↓クリックでそれぞれのサイトへ移動できます。↓↓↓↓</p>
+            </div>
+        </div>
+        <div class="slideWrap">
+            <ul class="bxslider">
+                <li><img alt="" src="img/portfolio.jpg" class="style2"></li>
+                <li><img alt="" src="img/agario.jpg" class="style2"></li>
+                <li><img alt="" src="img/lp.png"></li>
+                <li><img alt="" src="img/isara.jpg" class="style4"></li>
+                <li><img alt="" src="img/hanshin.jpg"></li>
+                <li><img alt="" src="img/hanshin1.jpg" class="style6"></li>
+                <li><img alt="" src="img/hanshin2.jpg"></li>
+                <li><img alt="" src="img/lp.png"></li>
+            </ul>
+        </div>
 
-                <div id="photo" class="photolist">
-                    <div class="card1 ">
-                        <img src="img/hanshin.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://hanshin.kaisei-ader.com"></a>
-                            <p>阪神計器製作所HP<br>
-                                模写コーディング</p>
-                        </div>
-                    </div>
-                    <div class="card1 ">
-                        <img src="img/isara.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://isara.kaisei-ader.com/"></a>
-                            <p>isara<br>模写コーディング<br> (途中)</p>
-                        </div>
-                    </div>
-                    <div class="card1 ">
-                        <img src="img/portfolio.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>オリジナル<br>マイポートフォリオ</p>
-                            <a href="https://kaisei-ader.com/"></a>
-                        </div>
-                    </div>
-                    <div class="card1 ">
-                        <img src="img/lp.png">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://lp.kaisei-ader.com/"></a>
-                            <p>LPオリジナル練習</p>
-                        </div>
-                    </div>
-                    <div class="card1 ">
-                        <img src="img/agario.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://agario.kaisei-ader.com"></a>
-                            <p>オリジナルゲームHP</p>
-                        </div>
-                    </div>
-
-                    <div class="card1 ">
-                        <img src="img/hanshin1.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://hanshin.kaisei-ader.com"></a>
-                            <p>阪神計器製作所HP<br>
-                                模写コーディング<br>
-                                下層ページ</p>
-                        </div>
-                    </div>
-                    <div class="card1 ">
-                        <img src="img/hanshin2.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <a href="https://hanshin.kaisei-ader.com"></a>
-                            <p>阪神計器製作所HP<br>
-                                模写コーディング<br>
-                                下層ページ</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="photo" class="down">
-                    <h3>-MY PHOTO -</h3>
-                </div>
-                <div id="photo" class="photolist">
-                    <div class="card fade_off">
-                        <img src="img/style1.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>信貴山朝護孫子寺</p>
-                        </div>
-                    </div>
-                    <div class="card fade_off">
-                        <img src="img/style2.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>嵐山 -竹林の小道- </p>
-                        </div>
-                    </div>
-                    <div class="card fade_off">
-                        <img src="img/style3.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>西宮マリナパークシティ</p>
-                        </div>
-                    </div>
-                    <div class="card fade_off">
-                        <img src="img/style4.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>二色の浜海水浴場</p>
-                        </div>
-                    </div>
-                    <div class="card fade_off">
-                        <img src="img/style5.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>APOLO BILL</p>
-                        </div>
-                    </div>
-                    <div class="card fade_off">
-                        <img src="img/style6.jpg">
-                        <div class="mask1"></div>
-                        <div class="mask2"></div>
-                        <div class="caption">
-                            <p>ニューヨーク</p>
-                        </div>
-                    </div>
+        <div class="photo" class="down">
+            <h3>-MY PHOTO -</h3>
+        </div>
+        <div id="photo" class="photolist">
+            <div class="card fade_off">
+                <img src="img/style1.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>信貴山朝護孫子寺</p>
                 </div>
             </div>
-        </section>
+            <div class="card fade_off">
+                <img src="img/style2.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>嵐山 -竹林の小道- </p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="img/style3.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>西宮マリナパークシティ</p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="img/style4.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>二色の浜海水浴場</p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="img/style5.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>APOLO BILL</p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="img/style6.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>ニューヨーク</p>
+                </div>
+            </div>
+        </div>
+
         <!--------------ABOUTここまで------------------>
         <!--------------SKILL------------------------->
         <section id="skill" class="down">
             <div class="skill_wrap">
-                <img src="img/bird.jpg">
+                <img src="img/land.png">
                 <div class="skill_content">
                     <div class="title_all fade_off"><span class="onecolor_all">S</span>KILL
                     </div>
@@ -336,7 +270,7 @@
                         原則1~3営業日以内に返信いたします。</p>
                     <div class="fo-line"></div>
                 </div>
-                <!--------------------フォーム------------------->
+                <!-------------------フォーム------------------->
                 <form class="form_wrap" action="{{ route('contact') }}" method="post">
                     @csrf
                     <input type="text" placeholder="Name" name="name" required>

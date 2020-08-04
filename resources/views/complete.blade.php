@@ -7,6 +7,6 @@
         <div>
             Thank You!
         </div>
-        <a href="{{ route('welcome') }}">戻る</a>
+        <a href="{{ route('welcome') }}">戻るzo</a>
     </body>
 </html>

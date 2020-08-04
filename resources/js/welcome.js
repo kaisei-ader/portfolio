@@ -2,13 +2,38 @@ import Typed from "typed.js/src/typed";
 
 new Typed('.typed', {
   strings: ["Welcome to My Portfolio.", "Let's scroll down."],
-  typeSpeed: 10,
+  typeSpeed: 40,
   startDelay: 2700,
-  backspeed: 20,
+  backspeed: 80,
   loop: false,
   showCursor: false,
   backDelay: 500
 });
+
+$(document).ready(function() {
+            $('.bxslider').bxSlider({
+
+                auto: true, //自動切り替えの有無
+
+                pause: 3000, //停止時間※デフォルトは4000
+
+                speed: 2500, //動くスピード※デフォルトは500
+
+                minSlides: 1, //一度に表示させる画像の最小値
+
+                maxSlides: 1, //一度に表示させる画像の数
+
+                slideWidth: 650,
+
+                slideMargin: 10,
+
+                moveSlides: 1,
+
+
+                responsive: true,
+
+            });
+        });
 
 var sheader = $("header"),
     animationClass = "is-animation";

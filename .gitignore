@@ -12,3 +12,5 @@ npm-debug.log
 yarn-error.log
 .idea
 trigger.php
+hook.log
+hool-error.log
