@@ -486,12 +486,33 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
 .git{
     background: rgba(255,255,255,0.7);
 }
-.photo{
-    width: 100%;
+.port{
+    width: 40%;
     margin: 50px auto;
     text-align: center;
-    color: black;
+    margin-top:-50px;
+    position: relative;
 }
+#illust03{
+  position: absolute;
+  top: -40px;
+  left: 220px;
+  width: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(10px 10px 10px #111);
+}
+.port h1{
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 100vh;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
+  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+  box-shadow: 4px 4px 4px #1e1e1e;
+  text-shadow: 2px 2px 2px #111;
+  font-size: 2rm;
+}
+
 .slideWrap{
     width: 90%;
     margin: 30px auto;
@@ -524,28 +545,48 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
   -moz-box-shadow: 0 0 5px #ccc!important;
   -webkit-box-shadow: 0 0 5px #ccc!important;
   box-shadow: 0 0 20px #ccc!important;
-  border: 12px solid #111!important;
-  background: #111!important;
+  border: 12px solid #adff2f!important;
+  background: #adff2f!important;
     box-sizing: border-box!important;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: 10px!important;
+  bottom:30px!important;
   width: 100%!important;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background-color: green !important;
+  background-color: #111 !important;
 }
-.photo h3{
-    font-size: 150%;
-    border-bottom: 3px solid #111;
+.photo{
+  margin-top: 100px;
+    margin-bottom: 120px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+#illust05{
+  position: absolute;
+  top: -150px;
+  left: -350px;
+  width: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(10px 10px 10px  purple);
 }
 .photo h1{
-    font-size: 200%;
-    border-bottom: 5px solid #111;
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 100vh;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
+  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+  box-shadow: 4px 4px 4px #1e1e1e;
+  text-shadow: 2px 2px 2px #111;
+  font-size: 2rm;
 }
 .photolist{
     width: 100%;
@@ -705,6 +746,7 @@ display: block;
     position: relative;
 }
 .skill_wrap img{
+  margin-top: 80px;
     width: 100%;
     height: 900px;
     object-fit: cover;
@@ -713,7 +755,7 @@ display: block;
     position: absolute;
     top:5%;
     width: 90%;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
     left: 5%;
 }
@@ -724,7 +766,7 @@ display: block;
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    background: rgba(255,255,255,0.7);
+    backgroun: rgba(255,255,255,0.7);
 }
 .skill_card h2{
     font-family: 'Montserrat', sans-serif;

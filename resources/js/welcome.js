@@ -68,7 +68,7 @@ $(".down").click(function () {
 });
 
 $(window).scroll(function () {
-  $(".about_content,.card,.skill_card_list,.title_all").each(function () {
+  $(".about_content,.card,.skill_card_list,.title_all,.section1,.section1Wrap,.section1Flex").each(function () {
     var fade = $(this).offset().top;
     var scroll = $(window).scrollTop();
     var windowheight = $(window).height();
@@ -80,7 +80,6 @@ $(window).scroll(function () {
     }
   });
 });
-
 $(function() {
             let scrollTop = $('.scrollTop');
             scrollTop.hide();
@@ -96,5 +95,5 @@ $(function() {
                     scrollTop: 0
                 }, 700);
                 return false;
-            });
-        });
+      });
+  });

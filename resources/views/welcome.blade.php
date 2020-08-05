@@ -75,13 +75,13 @@
 
 <!----------------------------------------------------------->
             <div class="about_content">
-                <section class="section1">
-                    <div class="section1Wrap">
+                <section class="section1 fade_off">
+                    <div class="section1Wrap fade_off">
                         <p id="illust06"><img src="images/illust06.png" width="250" height="250" alt=""></p>
                         <p id="illust07"><img src="images/illust07.png" width="600" height="600" alt=""></p>
                         <h1>WEB制作・プログラミングを学ぶ、<br>
                             20歳の専門学生。</h1>
-                        <div class="section1Flex">
+                        <div class="section1Flex fade_off">
                             <div class="flexLeft">
                                 <span>
                                     大阪でWEB制作・プログラミング<br>を学習中の専門学生。将来の夢は、自分にスキルをつけて
@@ -98,15 +98,9 @@
                 </section>
             </div>
         </div>
-        <div class="photo">
-            <h1>- portfolio list -</h1>
-            <div class="git">
-                ※以下すべてのコードは<br>
-                GIT-HUBアカウントに保存しております。
-                <a href="https://github.com/Kaisei-ader">→GIT-HUBアカウントはこちら</a>
-                <p>またサイトはすべて公開しています。<br>
-                    ↓↓↓↓クリックでそれぞれのサイトへ移動できます。↓↓↓↓</p>
-            </div>
+        <div class="port">
+            <p id="illust03"><img src="images/illust03.png" width="130" height="130" alt=""></p>
+            <h1>MY PORTFOLIO LIST</h1>
         </div>
         <div class="slideWrap">
             <ul class="bxslider">
@@ -122,7 +116,8 @@
         </div>
 
         <div class="photo" class="down">
-            <h3>-MY PHOTO -</h3>
+          <p id="illust05"><img src="images/illust05.png" width="400" height="400" alt=""></p>
+            <h1>MY PHOTO</h1>
         </div>
         <div id="photo" class="photolist">
             <div class="card fade_off">
@@ -179,7 +174,7 @@
         <!--------------SKILL------------------------->
         <section id="skill" class="down">
             <div class="skill_wrap">
-                <img src="img/land.png">
+                <img src="images/pic2.jpg">
                 <div class="skill_content">
                     <div class="title_all fade_off"><span class="onecolor_all">S</span>KILL
                     </div>
@@ -210,7 +205,6 @@
                             <i class="fab fa-adobe skillcolor"></i>
                             <h4>PHOTOSHOP</h4>
                         </div>
-                        <h2>学習予定 ➡ PHP Ruby Vue.js AWS Saas</h2>
                     </div>
                 </div>
             </div>
