@@ -3,11 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>KAISEI portfolio</title>
-
+        <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
         <link rel="stylesheet" href="/css/app.css">
         <link rel="shortcut icon" href="img/favicon.ico">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
         <script src="/js/app.js" defer></script>
     </head>
 
@@ -204,7 +203,7 @@
                         <div class="skill_card_list fade_off">
                             <i class="fab fa-adobe skillcolor"></i>
                             <h4>PHOTOSHOP</h4>
-                        </div>
+                        </div>W
                     </div>
                 </div>
             </div>
