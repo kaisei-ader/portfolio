@@ -80,7 +80,7 @@
                         <p id="illust07"><img src="images/illust07.png" width="600" height="600" alt=""></p>
                         <h1>WEB制作・プログラミングを学ぶ、<br>
                             20歳の専門学生。</h1>
-                        <div class="section1Flex fade_off">
+                        <div class="section1Flex">
                             <div class="flexLeft">
                                 <span>
                                     大阪でWEB制作・プログラミング<br>を学習中の専門学生。将来の夢は、自分にスキルをつけて
@@ -167,14 +167,35 @@
                     <p>ニューヨーク</p>
                 </div>
             </div>
+            <div class="card fade_off">
+                <img src="images/style3.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>ポートフォリオ</p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="images/style6.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>？？？</p>
+                </div>
+            </div>
+            <div class="card fade_off">
+                <img src="images/style4.jpg">
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="caption">
+                    <p>二色の浜海水浴場</p>
+                </div>
+            </div>
         </div>
 
         <!--------------ABOUTここまで------------------>
         <!--------------SKILL------------------------->
         <section id="skill" class="down">
-            <div class="skill_wrap">
-                <img src="images/pic2.jpg">
-                <div class="skill_content">
                     <div class="title_all fade_off"><span class="onecolor_all">S</span>KILL
                     </div>
                     <!---------------skiicard------------------->
@@ -203,11 +224,9 @@
                         <div class="skill_card_list fade_off">
                             <i class="fab fa-adobe skillcolor"></i>
                             <h4>PHOTOSHOP</h4>
-                        </div>W
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
         <section id="service">
             <div class="service_wrap">
                 <div class="service_mask">
