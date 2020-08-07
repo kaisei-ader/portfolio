@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>KAISEI portfolio</title>
-        <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
         <link rel="stylesheet" href="/css/app.css">
         <link rel="shortcut icon" href="img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <script src="/js/app.js" defer></script>
     </head>
@@ -119,7 +119,7 @@
             <h1>MY PHOTO</h1>
         </div>
         <div id="photo" class="photolist">
-            <div class="card fade_off">
+            <div class="card fade_off less">
                 <img src="img/style1.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
@@ -151,7 +151,7 @@
                     <p>二色の浜海水浴場</p>
                 </div>
             </div>
-            <div class="card fade_off">
+            <div class="card fade_off less">
                 <img src="img/style5.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
@@ -159,7 +159,7 @@
                     <p>APOLO BILL</p>
                 </div>
             </div>
-            <div class="card fade_off">
+            <div class="card fade_off less">
                 <img src="img/style6.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
@@ -183,7 +183,7 @@
                     <p>？？？</p>
                 </div>
             </div>
-            <div class="card fade_off">
+            <div class="card fade_off less">
                 <img src="images/style4.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>

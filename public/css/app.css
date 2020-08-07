@@ -1126,4 +1126,151 @@ width: 100%;
     transform: rotate(45deg) ;
 }
 
-@media screen (maxwidth)
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+}
+.header_wrap{
+  background-position: center;
+}
+.portfolio {
+    font-size: 18px;
+}
+  .menu{
+    display:none;
+  }
+  #illust01{
+    left: -50px;
+  }
+  #illust01 img{
+    width:100px;
+    height:150px;
+  }
+  #illust02{
+    left: 200px;
+  }
+  #illust02 img{
+    width:100px;
+    height:70px;
+  }
+  #illust06{
+    top:90px;
+    left:-40px;
+  }
+  #illust06 img{
+    width:200px;
+    height:200px;
+  }
+  #illust07{
+    top:120px;
+    left:56px;
+    z-index: -1;
+  }
+  #illust07 img{
+    width:300px;
+    height:300px;
+  }
+  #illust03 {
+    left: 138px;
+    top:1px;
+}
+#illust03 img {
+width: 55px;
+height: 55px;
+}
+.port h1 {
+    font-size: 16px;
+}
+  .typing img {
+    width: 100%;
+    height: 500px;
+}
+.typing_wrap h1 {
+    font-size: 38px;
+}
+.typing_wrap {
+    width: 90%;
+}
+.scroll {
+    top: 70%;
+    font-size: 25px;
+}
+.aboutImg {
+    height: 900px;
+    background-position: bottom;
+}
+.about_scroll {
+    font-size: 36px;
+}
+.about_span {
+    margin-top: 38px;
+}
+.title_all {
+    font-size: 30px;
+}
+.section1Wrap {
+    width: 100%;
+    padding-top: 0px;
+}
+.section1 h1 {
+    font-size: 18px;
+}
+.section1Flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.flexLeft{
+  width: 100%;
+  order: 2;
+  text-align: center;
+}
+.flexLeft span {
+    font-size: 15px;
+}
+.flexRight {
+  order: 1;
+  width:100%;
+    text-align: center;
+}
+.flexRight img {
+    width: 250px;
+}
+.port {
+    width: 80%;
+    margin-top: -150px;
+}
+.bx-wrapper {
+    height: 400px;
+
+}
+.photo {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+.photo h1 {
+    font-size: 18px;
+}
+#illust05 {
+    top: -150px;
+    left: -240px;
+}
+#illust05 img{
+  width: 500px;
+  height: 500px;
+}
+.card {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.less{
+  display: none;
+}
+}
