@@ -15,7 +15,7 @@
     <!---------------------ヘッダ-------------------------->
     <header>
         <div class="header_wrap"></div>
-        <div class="scrollTop">
+        <div class="scrollTop scroll_off">
         <img src="images/pageTop.png">
        </div>
         <div class="header_background">
@@ -196,7 +196,9 @@
         <!--------------ABOUTここまで------------------>
         <!--------------SKILL------------------------->
         <section id="skill" class="down">
+          <div class="skillTitle">
                     <div class="title_all fade_off"><span class="onecolor_all">S</span>KILL
+                    </div>
                     </div>
                     <!---------------skiicard------------------->
                     <div class="skill_card">
@@ -267,7 +269,8 @@
                                 </div>
                             </div>
                             <div class="more_service">
-                                <a href="index.html" class="moreBtn">お問い合わせ ></a>
+                              <p id="illust09"><img src="images/pic9.png" width="200" height="200" alt=""></p>
+                                <a href="#contact" class="moreBtn down">お問い合わせ ></a>
                             </div>
                         </div>
                     </div>

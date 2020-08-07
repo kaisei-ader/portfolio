@@ -82,14 +82,13 @@ $(window).scroll(function () {
 });
 $(function() {
             let scrollTop = $('.scrollTop');
-            scrollTop.hide();
+            let scrolladdclass = "scroll_on";
             $(window).scroll(function() {
-                if ($(this).scrollTop() > 100) {
-                    scrollTop.fadeIn();
+                if ($(this).scrollTop() > 300) {
+                  scrollTop.addClass(scrolladdclass);
                 } else {
-                    scrollTop.fadeOut();
-                }
-            });
+                  scrollTop.removeClass(scrolladdclass);
+            }
             scrollTop.click(function() {
                 $('body,html').animate({
                     scrollTop: 0
@@ -97,3 +96,4 @@ $(function() {
                 return false;
       });
   });
+});

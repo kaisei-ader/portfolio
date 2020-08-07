@@ -26,6 +26,25 @@ body{
 .fade_on{
     opacity: 1;
 }
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    transition: all 0.8s ease-in-out 0s;
+    cursor: pointer;
+    z-index: 9999;
+}
+.scroll_off{
+  opacity: 0;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition: all 1s;
+  -ms-transition:all 1s;
+  transition: all 1s;
+}
+.scroll_on{
+  opacity: 1;
+}
 .shutter{
     position: fixed;
     z-index: 99999;
@@ -116,19 +135,7 @@ header{
     z-index: 12000;
     transition: 0.5s;
 }
-.scrollTop {
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    opacity: 1;
-    transition: all 0.8s ease-in-out 0s;
-    cursor: pointer;
-    z-index: 9999;
-}
 
-.scrollTop:hover {
-    opacity: 0.7;
-}
 .header{
     position: relative;
     width: 90%;
@@ -333,7 +340,8 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../images/section.jpg);
+    background: url(../images/pic11.jpg);
+    background-position: right;
     z-index: -1;
     width: 100%;
     height: 1100px;
@@ -426,8 +434,8 @@ header{
     margin: 0 auto;
     line-height: 0;
     position: absolute;
-    top: 100px;
-    left: 450px;
+    top: 50px;
+    left: 514px;
     z-index: 99;
     object-fit: cover;
     filter:  drop-shadow(20px 16px 18px #111);
@@ -462,7 +470,7 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
 }
 .flexLeft span{
     font-size: 24px;
-    color: #fff;
+    color: #eee;
     letter-spacing: 4px;
     line-height: 2;
     font-family: "M PLUS Rounded 1c";
@@ -741,36 +749,49 @@ display: block;
     width: 100%;
     height: auto;
     background: #b2c7bd;
-    margin: 0 auto;
+    margin: 100px auto 0;
+}
+.skillTitle{
+  width: 80%;
+  margin:0 auto;
+padding-top: 100px;
+}
+.skill_card {
+    width: 100%;
+    height: 100%;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 150px;
 }
-.skill_card{
-  width: 100%;
-  height: 100%;
-  margin-top;100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 150px;
+
+.skill_card_list {
+    padding-top: 30px;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    margin: 20px 20px 100px;
+    border-radius: 53px;
+    background: #b2c7bd;
+    box-shadow: 15px 15px 15px #92a39b,
+    -7px -7px 20px #d2ebdf,
+    inset 0 0 4px #b2c7bd,
+    inset 7px 7px 15px #b2c7bd,
+    inset -7px -7px 20px #b2c7bd,
+    0 0 4px #92a39b;
+    transition: all 2.0s;
 }
-.skill_card_list{
-  padding-top: 30px;
-  width: 25%;
-  height: 300px;
-  margin: 20px 20px;
-  text-align: center;
-  margin-bottom: 100px;
-  border-radius: 53px;
-  background: #b2c7bd;
-  box-shadow: inset 25px 25px 24px #92a39b,
-             inset -25px -25px 24px #d2ebdf;
-             transition: all 2.0s;
-}
-.skill_card_list:hover{
-    box-shadow:  25px 25px 24px #92a39b,
-             -25px -25px 24px #d2ebdf;
+
+.skill_card_list:hover {
+    box-shadow: 15px 15px 15px #b2c7bd,
+    -7px -7px 20px #b2c7bd,
+    inset 0 0 4px #92a39b,
+    inset 7px 7px 15px #92a39b,
+    inset -7px -7px 20px #d2ebdf,
+    0 0 4px rgba(255, 255, 255, .2);
 }
 .skillcolor {
     font-size: 200px;
@@ -861,6 +882,15 @@ text-align: center;
     margin: 0 auto;
     align-items: center;
     text-align: center;
+    position: relative;
+
+}
+#illust09{
+  position: absolute;
+  top: -80px;
+  left: 660px;
+  margin: 0 auto;
+  filter: drop-shadow(10px 10px 10px #fff);
 }
 .moreBtn {
     display: inline-block;
