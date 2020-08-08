@@ -280,8 +280,8 @@
         <!---------------ここまで--------------------------->
         <!---------------コンタクト-------------------------->
         <section id="contact">
-            <div class="contact_wrap">
-                <div class="title_contact"><span class="onecolor_contact">C</span>ONTACT
+            <div class="title_all title_color">
+                <span class="onecolor_contact">C</span>ONTACT
                 </div>
                 <div class="fo-title">
                     <p>お見積もりや案件のご相談など、お気軽にお問い合わせください。<br>
