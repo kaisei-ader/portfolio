@@ -10,6 +10,11 @@ new Typed('.typed', {
   backDelay: 500
 });
 
+/*$(function() {
+  $('.header_wrap,.header_background').css
+  ('width',$('#onlyheader').outerWidth())
+});
+*/
 $(document).ready(function() {
             $('.bxslider').bxSlider({
 

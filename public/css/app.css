@@ -13,6 +13,10 @@ html{
 
 body{
     margin:0px;
+    padding: 0px;
+}
+.wrap{
+  overflow: hidden;
 }
 
 .fade_off{
@@ -45,6 +49,7 @@ body{
 .scroll_on{
   opacity: 1;
 }
+
 .shutter{
     position: fixed;
     z-index: 99999;
@@ -110,8 +115,11 @@ content: '';
         height: 100%;
     }
 }
-header{
+#onlyheader{
     width: 100%;
+    height: auto;
+    position: relative;
+    margin:0 auto;
 }
 
 .header_wrap{
@@ -121,7 +129,7 @@ header{
     background-size: cover;
     position: fixed;
     top: 0;
-    left: 0;
+    left: auto;
     width:100%;
     height: 100vh;
 }
@@ -1442,5 +1450,15 @@ height: 55px;
     cursor: pointer;
     transition: 0.6s;
     font-family: 'Noto Serif JP', sans-serif;
+}
+
+element.style {
+}
+#footer {
+    background: rgba(199,26,63,1);
+    padding: 30px;
+    width: 100%;
+    height: 280px;
+    margin-top: -40px;
 }
 }

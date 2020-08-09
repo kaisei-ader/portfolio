@@ -5,15 +5,18 @@
         <title>KAISEI portfolio</title>
         <link rel="stylesheet" href="/css/app.css">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <script src="/js/app.js" defer></script>
     </head>
 
     <body>
-      <div class="shutter"></div>
-    <!---------------------ヘッダ-------------------------->
-    <header>
+      <div class="wrap">
+      <div class="shutterWrap">
+       <div class="shutter"></div>
+    </div>
+    <!--ヘッダ-->
+    <header id="onlyheader">
         <div class="header_wrap"></div>
         <div class="scrollTop scroll_off">
         <img src="images/pageTop.png">
@@ -43,9 +46,7 @@
                 <p id="illust02"><img src="images/illust02.png" width="140" height="100" alt=""></p>
             </div>
         </div>
-        <!-----------メイン画像--------------------->
-        <!-----------タイピング--------------------->
-        <!-----------スクロール--------------------->
+
         <div class="typing">
             <img src="images/pic4.jpg">
             <div class="typing_wrap">
@@ -56,8 +57,8 @@
                 <br>SCLOLL
             </div>
         </div>
-        <!-----------ここまで----------------------->
-        <!-----------アバウト------------------------>
+        <!--ここまで-->
+        <!--アバウト-->
     </header>
     <section id="about">
         <div class="aboutImg"></div>
@@ -72,7 +73,6 @@
             <div class="title_all"><span class="onecolor_all">A</span>BOUT
             </div>
 
-<!----------------------------------------------------------->
             <div class="about_content">
                 <section class="section1 fade_off">
                     <div class="section1Wrap fade_off">
@@ -192,15 +192,15 @@
                 </div>
             </div>
         </div>
-
-        <!--------------ABOUTここまで------------------>
-        <!--------------SKILL------------------------->
+</section>
+        <!--ABOUTここまで-->
+        <!--SKILL-->
         <section id="skill" class="down">
           <div class="skillTitle">
                     <div class="title_all fade_off"><span class="onecolor_all">S</span>KILL
                     </div>
                     </div>
-                    <!---------------skiicard------------------->
+
                     <div class="skill_card">
                         <div class="skill_card_list fade_off">
                             <i class="fab fa-html5 skillcolor"></i>
@@ -214,7 +214,6 @@
                             <i class="fab fa-js-square skillcolor"></i>
                             <h4>JAVASCRIPT</h4>
                         </div>
-                        <!----------------折り返し----------------------->
                         <div class="skill_card_list fade_off">
                             <i class="fab fa-wordpress skillcolor"></i>
                             <h4>WORDPRESS</h4>
@@ -277,8 +276,7 @@
                 </div>
             </div>
         </section>
-        <!---------------ここまで--------------------------->
-        <!---------------コンタクト-------------------------->
+        <!--コンタクト-->
         <section id="contact">
             <div class="title_all title_color">
                 <span class="onecolor_contact">C</span>ONTACT
@@ -288,7 +286,7 @@
                         原則1~3営業日以内に返信いたします。</p>
                     <div class="fo-line"></div>
                 </div>
-                <!-------------------フォーム------------------->
+                <!--フォーム-->
                 <form class="form_wrap" action="{{ route('contact') }}" method="post">
                     @csrf
                     <input type="text" placeholder="Name" name="name" required>
@@ -300,10 +298,8 @@
                         <input type="submit" value="Send" class="submit_fun">
                     </div>
                 </form>
-            </div>
         </section>
-        <!----------------ここまで-------------------->
-        <!----------------フッター------------------------->
+        <!--フッター-->
         <section id="footer">
             <div class="footer_wrap">
                 <div class="footer_in">
@@ -324,5 +320,6 @@
             </div>
             <p><small>© Copyright | Kaisei.Portfolio 2020.</small></p>
         </section>
+      </div>
     </body>
 </html>
