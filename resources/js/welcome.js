@@ -63,14 +63,14 @@ $(window).scroll(function () {
   }
 });
 
-$(".scroll").css({
+$(".scroll,.hamburger").css({
   opacity: '0'
 });
 setTimeout(function () {
-  $(".scroll").stop().animate({
+  $(".scroll,.hamburger").stop().animate({
     opacity: '1'
   });
-}, 6500);
+}, 6000);
 
 $(".down").click(function () {
   var speed = 700;
