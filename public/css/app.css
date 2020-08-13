@@ -1380,6 +1380,7 @@ height: 55px;
   .typing img {
     width: 100%;
     height: 500px;
+    object-fit: cover;
 }
 .typing_wrap h1 {
     font-size: 38px;
