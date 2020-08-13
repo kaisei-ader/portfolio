@@ -15,6 +15,9 @@ new Typed('.typed', {
   ('width',$('#onlyheader').outerWidth())
 });
 */
+$('.globalMenuSp a[href]').on('click', function() {
+        $('.globalMenuSp,.hamburger').removeClass('active');
+    });
 $(function() {
     $('.hamburger').click(function() {
         $(this).toggleClass('active');
@@ -26,9 +29,7 @@ $(function() {
         }
     });
 });
-$('.globalMenuSp a[href]').on('click', function() {
-        $('.globalMenuSp,.hamburger').removeClass('active');
-    });
+
 $(document).ready(function() {
             $('.bxslider').bxSlider({
 
