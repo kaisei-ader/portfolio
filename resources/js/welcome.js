@@ -1,7 +1,7 @@
 import Typed from "typed.js/src/typed";
 
 new Typed('.typed', {
-  strings: ["Welcome to My Portfolio.", "Let's scroll down!!!!."],
+  strings: ["Welcome to My Portfolio.", "Let's scroll down!."],
   typeSpeed: 40,
   startDelay: 2700,
   backspeed: 80,
