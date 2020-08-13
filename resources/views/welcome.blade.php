@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <script src="/js/app.js" defer></script>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
 
     <body>
@@ -46,6 +47,22 @@
                 <p id="illust02"><img src="images/illust02.png" width="140" height="100" alt=""></p>
             </div>
         </div>
+        <!--ハンバーガーメニュー-->
+        <div class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<nav class="globalMenuSp">
+    <ul>
+      <li><a href="#" class="down">Home</a></li>
+      <li><a href="#about" class="down">About</a></li>
+      <li><a href="#skill" class="down">Skill</a></li>
+      <li><a href="#service" class="down">Service</a></li>
+      <li><a href="#contact" class="down">Contact</a></li>
+    </ul>
+</nav>
 
         <div class="typing">
             <img src="images/pic4.jpg">
@@ -278,9 +295,11 @@
         </section>
         <!--コンタクト-->
         <section id="contact">
+          <div class="contact_wrap">
             <div class="title_all title_color">
                 <span class="onecolor_contact">C</span>ONTACT
                 </div>
+              </div>
                 <div class="fo-title">
                     <p>お見積もりや案件のご相談など、お気軽にお問い合わせください。<br>
                         原則1~3営業日以内に返信いたします。</p>
@@ -308,12 +327,12 @@
                     </a>
                 </div>
                 <div class="footer_in">
-                    <a href="https://twitter.com/">
+                  <a href="https://www.facebook.com/">
                         <i class="fab fa-facebook-f footer_i"></i>
                     </a>
                 </div>
                 <div class="footer_in">
-                    <a href="https://twitter.com/">
+                      <a href="https://github.com/kaisei-ader/">
                         <i class="fab fa-git footer_i"></i>
                     </a>
                 </div>
