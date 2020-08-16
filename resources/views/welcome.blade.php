@@ -107,7 +107,7 @@
                                 </span>
                             </div>
                             <div class="flexRight">
-                                <img src="images/style5.jpg">
+                                <img src="images/me.jpg">
                             </div>
                         </div>
                     </div>
@@ -117,17 +117,26 @@
         <div class="port">
             <p id="illust03"><img src="images/illust03.png" width="130" height="130" alt=""></p>
             <h1>MY PORTFOLIO LIST</h1>
+          <div class="portSpan">  <span>クリックで公開ページに飛べます！</span></div>
         </div>
         <div class="slideWrap">
             <ul class="bxslider">
-                <li><img alt="" src="img/portfolio.jpg" class="style2"></li>
-                <li><img alt="" src="img/agario.jpg" class="style2"></li>
-                <li><img alt="" src="img/lp.png"></li>
-                <li><img alt="" src="img/isara.jpg" class="style4"></li>
-                <li><img alt="" src="img/hanshin.jpg"></li>
-                <li><img alt="" src="img/hanshin1.jpg" class="style6"></li>
-                <li><img alt="" src="img/hanshin2.jpg"></li>
-                <li><img alt="" src="img/lp.png"></li>
+                <li><a href="https://kaisei-ader.com/">
+                  <img alt="" src="img/portfolio.jpg" class="style2"></a></li>
+                <li><a href="https://agario.kaisei-ader.com/">
+                  <img alt="" src="img/agario.jpg" class="style2"></a></li>
+                <li><a href="https://lp.kaisei-ader.com/">
+                  <img alt="" src="img/lp.png"></a></li>
+                <li><a href="https://isara.kaisei-ader.com/">
+                  <img alt="" src="img/isara.jpg" class="style4"></a></li>
+                <li><a href="https://hanshin.kaisei-ader.com/">
+                  <img alt="" src="img/hanshin.jpg"></a></li>
+                <li><a href="https://hanshin.kaisei-ader.com/">
+                  <img alt="" src="img/hanshin1.jpg" class="style6"></a></li>
+                <li><a href="https://hanshin.kaisei-ader.com/">
+                  <img alt="" src="img/hanshin2.jpg"></a></li>
+                <li><a href="https://lp.kaisei-ader.com/">
+                  <img alt="" src="img/lp.png"></a></li>
             </ul>
         </div>
 
@@ -185,27 +194,27 @@
                 </div>
             </div>
             <div class="card fade_off">
-                <img src="images/style3.jpg">
+                <img src="images/style12.jpg" class="style10">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
                 <div class="caption">
-                    <p>ポートフォリオ</p>
+                    <p>船場</p>
                 </div>
             </div>
             <div class="card fade_off">
-                <img src="images/style6.jpg">
+                <img src="images/style11.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
                 <div class="caption">
-                    <p>？？？</p>
+                    <p>竹林の小道</p>
                 </div>
             </div>
             <div class="card fade_off less">
-                <img src="images/style4.jpg">
+                <img src="images/style13.jpg">
                 <div class="mask1"></div>
                 <div class="mask2"></div>
                 <div class="caption">
-                    <p>二色の浜海水浴場</p>
+                    <p>マリナパーク公園</p>
                 </div>
             </div>
         </div>

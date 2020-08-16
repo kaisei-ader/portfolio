@@ -507,13 +507,6 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
 .git{
     background: rgba(255,255,255,0.7);
 }
-.port{
-    width: 40%;
-    margin: 50px auto;
-    text-align: center;
-    margin-top:-50px;
-    position: relative;
-}
 #illust03{
   position: absolute;
   top: -40px;
@@ -524,6 +517,13 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
 }
 .title_color{
   color: #fff;
+}
+.port{
+    width: 40%;
+    margin: 50px auto;
+    text-align: center;
+    margin-top:-50px;
+    position: relative;
 }
 .port h1{
   padding: 1rem 3rem;
@@ -536,7 +536,16 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
   text-shadow: 2px 2px 2px #111;
   font-size: 2rm;
 }
-
+.portSpan{
+   margin-top: 40px;
+  margin-bottom: -15px;
+}
+.port span{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #111;
+  color: #fff;
+}
 .slideWrap{
     width: 90%;
     margin: 30px auto;
@@ -760,7 +769,9 @@ display: block;
 .card:hover .mask2{
     bottom:0;
 }
-
+.style10{
+  object-fit: contain;
+}
 #skill {
     width: 100%;
     height: auto;
@@ -1376,6 +1387,18 @@ height: 55px;
 }
 .port h1 {
     font-size: 16px;
+}
+.portSpan {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: -30px;
+    width: 70%;
+}
+.port span {
+font-size: 10px;
 }
   .typing img {
     width: 100%;
