@@ -117,10 +117,12 @@
         <div class="port">
             <p id="illust03"><img src="images/illust03.png" width="130" height="130" alt=""></p>
             <h1>MY PORTFOLIO LIST</h1>
-          <div class="portSpan">  <span>クリックで公開ページに飛べます！</span></div>
+          <div class="portSpan">  <span>クリックで公開ページに飛べます</span></div>
         </div>
         <div class="slideWrap">
             <ul class="bxslider">
+               <li><a href="https://todo.kaisei-ader.com/">
+                  <img alt="" src="img/todolist.jpg" class="todo"></a></li>
                 <li><a href="https://kaisei-ader.com/">
                   <img alt="" src="img/portfolio.jpg" class="style2"></a></li>
                 <li><a href="https://agario.kaisei-ader.com/">
@@ -135,8 +137,6 @@
                   <img alt="" src="img/hanshin1.jpg" class="style6"></a></li>
                 <li><a href="https://hanshin.kaisei-ader.com/">
                   <img alt="" src="img/hanshin2.jpg"></a></li>
-                <li><a href="https://lp.kaisei-ader.com/">
-                  <img alt="" src="img/lp.png"></a></li>
             </ul>
         </div>
 

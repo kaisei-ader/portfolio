@@ -1,5 +1,4 @@
-@charset="utf-8";
-
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
@@ -573,6 +572,9 @@ text-shadow: #C5394A 1px 1px,#C5394A 0px 0px,#C5394A 1px 1px,#C5394A 2px 2px,#C5
     object-fit: cover;
     object-position: top;
     overflow: hidden;
+}
+.todo{
+    object-fit: contain!important;
 }
 .bx-wrapper {
   -moz-box-shadow: 0 0 5px #ccc!important;

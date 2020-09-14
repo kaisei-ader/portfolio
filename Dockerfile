@@ -1,8 +1,7 @@
 FROM php:7.4-apache
 
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt-get install -y nodejs git unzip
-RUN npm install npm@latest -g
+RUN apt-get update; apt-get install -y nodejs git unzip
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
