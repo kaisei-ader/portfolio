@@ -1,9 +1,19 @@
 version: '3'
 services:
-  laravel:
-    build: .
-    ports:
-      - '8000:80'
+  portfolio:
+    image: ken109/laravel
+    restart: always
+    container_name: portfolio
+    expose:
+      - '80'
+    environment:
+      VIRTUAL_HOST: kaisei-ader.com
+      LETSENCRYPT_HOST: kaisei-ader.com
+      LETSENCRYPT_EMAIL: kaisei101010@icloud.com
     volumes:
       - .:/var/www/html
-    restart: always
+
+networks:
+  default:
+    external:
+      name: production
